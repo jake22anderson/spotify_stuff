@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '551ed56d58cb40a6ba0b5d8e9522de2f'; // Your client id
 var client_secret = 'edbc95099b8b464ea8d9880a86ca84b5'; // Your secret
-var redirect_uri = 'https://localhost:8888/callback'; // Your redirect uri
+var redirect_uri = 'https://spotify-album-art.herokuapp.com/'; // Your redirect uri
 // 551ed56d58cb40a6ba0b5d8e9522de2f
 // edbc95099b8b464ea8d9880a86ca84b5
 /**
@@ -145,4 +145,4 @@ app.get('/refresh_token', function(req, res) {
 });
 
 console.log('Listening on 8888');
-app.listen(8888);
+app.listen('https://spotify-album-art.herokuapp.com/');
