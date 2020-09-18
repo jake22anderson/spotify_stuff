@@ -10,4 +10,5 @@
     "querystring": "~0.2.0",
     "request": "~2.83.0"
   }
+  "main": "authorization_code/public/index.html",
 }
